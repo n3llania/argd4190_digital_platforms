@@ -1,0 +1,39 @@
+
+    body{
+      background-color: rgb(13, 11, 27);
+    }
+    h1 {
+      color:beige; font-size: 100px; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+    h2 {
+      color:beige; font-size: 40px; font-family:Verdana, Geneva, Tahoma, sans-serif;
+    }
+    h2:hover {
+        color:rgb(235, 156, 60)
+    }
+    p {
+      color:beige; font-size: 18px; font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    }
+
+    .my-paragraph div p {
+        background-color:rgb(235, 156, 60);
+        color: beige;
+
+    }
+    #biggest {
+        font-size: 80px;
+        color:rgb(235, 156, 60)
+    }
+    .fill {
+        background-color:rgb(235, 156, 60);
+    }
+    button {
+      padding: 15px 25px;
+      background-color: beige;
+      color: rgb(235, 156, 60);
+      font-size: 1.5rem;
+      font-weight: 700;
+      border: none;
+      border-radius: 5px;
+      cursos: pointer;
+    }
