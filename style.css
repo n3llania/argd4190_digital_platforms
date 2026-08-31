@@ -27,13 +27,14 @@
       text-decoration: none;
     }
     ul li a:hover {
-      background-color: rgb(235, 156, 60);
+      background-color: #2a2ad3;
+      color: #f5f5dc;
     }
     body{
       background-color: rgb(13, 11, 27);
     }
     h1 {
-      color:beige; font-size: 6rem; 
+      color:#f5f5dc; font-size: 5rem; 
       font-family: "Tumb", fantasy;
       margin: 10px;
       line-height: 1;
@@ -41,45 +42,93 @@
     }
     
     h2 {
-      color:beige; font-size: 3rem; font-family:Verdana, Geneva, Tahoma, sans-serif;
-      margin: 10px;
-      line-height: 1;
+      color:beige; font-size: 3rem; 
+      font-family: "newnord", sans-serif;
+      font-weight: 800;
+      font-style: normal;
+      line-height: 1.15;
       text-align: center;
       letter-spacing: 2px;
       width: 100%;
     }
+
+    h3 {
+      color: #f5f5dc; font-size: 2.25rem;
+      font-family: "newnord", sans-serif;
+      font-weight: 700;
+      font-style: normal;
+    }
+    .backgroundvideo {
+      position: relative;
+      width: 100%;
+      height: 100vh;
+      background-size: cover;
+      padding: 20px;
+      box-sizing: content-box;
+    }
+    .backvid {
+      position:absolute;
+      top: 0;
+      left: 0;
+      width: 100;
+      height: 100%;
+      object-fit:cover;
+      z-index: -1;
+    transform: scale(1.5);
+    }
+    .textoverlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
     p {
-      color:beige; font-size: 1rem; font-family: Verdana, Geneva, Tahoma, sans-serif; 
+      color:beige; font-size: 1rem;
+      font-family: "newnoed", sans-serif; 
+      font-weight: 400;
+      font-style: normal;
       margin: 10px;
       line-height: 1.3;
       text-align: center;
     }
 
-    .my-paragraph div p {
+    .my-paragraph {
         background-color:#eb9c3c;
         color: beige;
+        padding: 20px;
+        margin: auto;
 
     }
     #biggest {
         font-size: 80px;
-        color:rgb(235, 156, 60)
+        color:#f5f5dc;
     }
     .fill {
-        background-color:rgb(235, 156, 60);
+        background-color:#eb9c3c;
+        padding: 30 px;
+        margin: 10rem;
+        opacity: 95%;
+        border-radius: 18px;
+    }
+    .blend {
+      mix-blend-mode: screen;
     }
     .hovereffect  {
       top: 0;
       left: 0;
       padding: 15px 25px;
       background-color: beige;
-      color: #eb9c3c;
+      color: #2a2ad3;
       font-size: 1.5rem;
       font-weight: 700;
-      font-family: Verdana;
+      font-family: "newnord", sans-serif;
       border: none;
-      border-radius: 5px;
+      border-radius: 10px;
       cursor: pointer;
       animation: moveButton 1s ease forwards;
+      display: block;
+      margin: 0 auto;
     }
 @keyframes moveButton {
   from {
@@ -92,8 +141,9 @@
   }
 }
 button:hover {
-  box-shadow: 5px 5px 0px rgb(13, 11, 27);
+  box-shadow: 5px 5px 0px #2a2ad3;
 }
+
 .lineup div {
   margin: 10px;
   padding: 20px;
@@ -101,11 +151,10 @@ button:hover {
 .lineup {
   display: block;
 }
-.container {
-  background-image: url(Raye.jpg), url(Megdanlena.jpg);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+.parent {
+  display: flex;
+}
+.box {
   box-sizing: content-box;
   width: 25%;
   height: 200px;
@@ -114,4 +163,42 @@ button:hover {
   border: solid #eb9c3c;
   border-radius: 12px;
   margin: 10px;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  text-align: center;
+}
+.container {
+  background-image: url(Raye.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  box-sizing: content-box;
+}
+.container1 {
+  background-image: url(Magdalena2.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  box-sizing: content-box;
+}
+.container2 {
+  background-image: url(sarah.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  box-sizing: content-box;
+}
+.container3 {
+  background-image: url(tovelo.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  box-sizing: content-box;
+}
+.container4 {
+  background-image: url(beaches.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  box-sizing: content-box;
 }
