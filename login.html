@@ -3,15 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Login</title>
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://use.typekit.net/jps4ipw.css">
     
 </head>
+<header></header>
 <body>
     <nav>
-        <ul>   
+        <ul> 
+            <a href="index.html">
+        <img src="Phantasm.png" alt="Phantasm Festival Logo" class="logo"></a>  
             <!--<li><a href=discover.html>Discover</a></li>-->
             <li><a href=store.html>Store</a></li>
             <li><a href=login.html>Login</a></li>
@@ -20,21 +23,34 @@
         </ul>
      </nav>
 <h1 class="white">Login</h1>
-    <div class="wrapper">
-        <div class="form-box login">
-            <h2>Login</h2>
-            <form>
-
-            </form>
-        
-            <div>
-               <!-- <input required type="email" name="email" id="email-input" placeholder="Email">  -->
-            </div>
-            <div>
-               <!-- <input required type="password" name="password" id="password-input" placeholder="Password">  -->
-            </div>
-            <!-- <button type="submit">Login</button> -->
-        </form>
-    </div>
+    <main class="loginbox">
+        <!-- <div class="loginheader">
+            <h3 class="white">Login</h3>
+        </div> -->
+        <div class="inputbox">
+            <input type="text" class="inputfield" placeholder="Email" autocomplete="off" required>
+        </div>
+        <div class="inputbox">
+            <input type="Password" class="inputfield" placeholder="Password" autocomplete="off" required>
+        </div>
+        <div class="forgot">
+            <section class="section">
+                <input type="checkbox" id="check">
+                <label for="check">Remember Me</label>
+            </section>
+            <section class="section">
+                <a href="#" class="pink">Forgot Password</a>
+            </section>
+        </div>
+        <div class="inputsubmit">
+            <button class="submitbtn" id="submit">Sign In</button>
+        </div>
+        <div class="signuplink">
+            <p class="white">
+               Don't have account? <a href="#">Sign Up</a>
+            </p>
+        </div>
+    </main>
+</form>
 </body>
 </html>

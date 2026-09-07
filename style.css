@@ -4,9 +4,10 @@
     } 
     ul {
       list-style-type: none;
-      margin: o;
+      margin: 0;
       padding: 0;
       overflow: hidden;
+      gap: 20px;
       background-color: #0d0b1b;
     }
     ul li {
@@ -21,7 +22,8 @@
     ul li a {
       display: block;
       color: #f5f5dc;
-      font-family: verdana;
+      font-family: "newnord", sans-serif;
+      font-size: var(--fs-base);
       text-align: center;
       padding: 14px 16px;
       text-decoration: none;
@@ -30,10 +32,104 @@
       background-color: #2a2ad3;
       color: #f5f5dc;
     }
+    .logo {
+      height: 1.5rem;
+      width: auto;
+      margin: 10px;
+    }
+    .logodisplay {
+      display: block;
+      padding: 2rem;
+      margin-left: auto;
+      margin-right: auto;
+      width: 50%;
+    }
+    *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
     body{
       background-color: rgb(13, 11, 27);
+  }
+    .loginbox {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      padding: 30px;
+      margin-inline: auto;
+      width: min(440px, 90%);   
+      max-height: 90vh;        
+      height: auto;
     }
-
+    .inputbox .inputfield{
+      width: 100%;
+      height: 60px;
+      font-size: 17px;
+      padding: 0 25px;
+      margin-bottom: 15px;
+      border-radius: 30px;
+      border: solid 2px #f168fc;
+      box-shadow: 0px 2px #f168fc;
+      background-color: #f5f5dc;
+      outline: none;
+      transition: .3s;
+    }
+    ::placeholder{
+      font-family: "newnord", sans-serif;
+      color: #0d0b1b;
+      font-weight: 500;
+    }
+    .inputfield:focus {
+      width: 110%;
+    }
+    .forgot {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 40px;
+      font-family: "newnord",sans-serif;
+      color: #2a2ad3;
+    }
+    .section {
+      display: flex;
+      align-items: center;
+      font-size: 14px;
+      color:#f5f5dc;
+    }
+    #check{
+      margin-right: 10px;
+    }
+    a {
+      text-decoration: none;
+    }
+    .inputsubmit {
+      position: relative;
+    }
+    .submitbtn {
+      top: 0;
+      left: 0;
+      padding: 15px 25px;
+      background-color: beige;
+      color: #2a2ad3;
+      font-size: 1.5rem;
+      font-weight: 700;
+      font-family: "newnord", sans-serif;
+      border: solid #2a2ad3;
+      border-radius: 12px;
+      cursor: pointer;
+      display: block;
+      margin: 0 auto;
+      cursor: pointer;
+    }
+    .signuplink {
+      text-align: center;
+      font-size: 15px;
+      margin-top: 20px;
+    }
+    .signuplink a{
+      color: #f168fc;
+      font-weight: 500;
+    }
     .white {
       color:#f5f5dc
     }
@@ -49,16 +145,17 @@
     .pink {
       color: #f168fc;
     }
-    .whiteorange {
+    .whiteblue {
       color: #f5f5dc;
-      border: #eb9c3c 2px;
+      -webkit-text-stroke: .9px #2a2ad3;
     }
     h1 {
-      font-size: var(--fs-xxxl); 
+      font-size: var(--fs-xxl); 
       font-family: "Tumb", fantasy;
       margin: 10px;
       line-height: 1;
       text-align: center;
+      margin: 30px;
     }
     
     h2 {
@@ -70,19 +167,22 @@
       text-align: center;
       letter-spacing: 2px;
       width: 100%;
+      margin: 20px;
     }
 
     h3 {
-      font-size: var(--fs-sm);
+      font-size: var(--fs-md);
       font-family: "newnord", sans-serif;
       font-weight: 700;
       font-style: normal;
+      margin: 20px;
     }
     h4 {
-      font-size: var(--fs-md);
+      font-size: var(--fs-sm);
       font-family: "newnord", sans-serif;
       font-weight: 500;
       font-style: normal;
+      margin: 20px;
     }
     .backgroundvideo {
       position: relative;
@@ -114,13 +214,73 @@
       font-family: "newnord", sans-serif; 
       font-weight: 400;
       font-style: normal;
-      margin: 10px;
+      margin: 20px;
       line-height: 1.3;
       text-align: center;
+    }
+    .storecontainer {
+      max-width: 90rem;
+      margin-inline: auto;
+      padding-inline: 2rem;
+      align-items: center;
+    }
+    .productgrid {
+      display: grid;
+      grid-template-columns:
+      repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1rem;
+      margin: 2rem;
+    }
+    /* .stacked {
+      display: grid;
+    }
+    .stacked > * {
+      grid-column: 1 / 1;
+      grid-row: 1 / 2;
+    } */
+    .productimg {
+      width: 100%;
+      aspect-ratio: 1 / 1;
+      object-fit: cover;
+      border-radius: 12px;
+      border: solid 2px #f168fc;
+    }
+    .productcard {
+      background-color: #f5f5dc;
+      border: solid #f168fc;
+      border-radius: 12px;
+      overflow: hidden;
+      padding: 20px;
+      border: solid #f168fc;
+      border-radius: 12px;
+      box-sizing: content-box;
+      height: auto;
+    }
+    .productinfo {
+      align-self: end;
+      margin: .5rem;
+      padding: .5rem;
+    }
+    .storebutton  {
+      top: 0;
+      left: 0;
+      padding: 15px 25px;
+      background-color: beige;
+      color: #2a2ad3;
+      font-size: 1rem;
+      font-weight: 700;
+      font-family: "newnord", sans-serif;
+      border: solid #2a2ad3;
+      border-radius: 12px;
+      cursor: pointer;
+      display: block;
     }
 :root {
   --primary-color: #f5f5dc;
   --secondary-color: #eb9c3c;
+  --tertiary-color: #0d0b1b;
+  --quetemary-color: #f168fc;
+  --fifth-color: #2a2ad3;
   --product-card-text-alignement: left;
   --fs-sm: clamp(0.8rem, 0.17vi + 0.76rem, 0.89rem);
   --fs-base: clamp(1rem, 0.34vi + 0.91rem, 1.19rem);
@@ -143,12 +303,17 @@
         stroke-width: 2px;
     }
     .fill {
-        background-color:#0d0b1b;
-        padding: 40 px;
-        margin: 6rem;
-        opacity: 95%;
+        display: flex;
+        background-color: #f5f5dc;
+        opacity: 93%;
+        padding: 40px;
         border-radius: 18px;
-        border: solid #eb9c3c 2px;
+        border: solid #f168fc 2px;
+        display: grid;
+        margin: 10px;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
     }
     .blend {
       mix-blend-mode: normal;
@@ -158,66 +323,61 @@
       left: 0;
       padding: 15px 25px;
       background-color: beige;
-      color: #2a2ad3;
+      color: #f168fc;
       font-size: 1.5rem;
       font-weight: 700;
       font-family: "newnord", sans-serif;
-      border: none;
-      border-radius: 10px;
+      border: solid #f168fc;
+      border-radius: 12px;
       cursor: pointer;
-      animation: moveButton 1s ease forwards;
       display: block;
       margin: 0 auto;
+      cursor: pointer;
     }
-@keyframes moveButton {
-  from {
-    top: 0;
-    left: 0;
-  }
-  to {
-    top: 100px;
-    left: 200px;
-  }
-}
+
 button:hover {
-  box-shadow: 5px 5px 0px #2a2ad3;
+  box-shadow: .3rem .3rem 0px #f168fc;
+  transition: .2s ease-out;
+  border: solid #f168fc 2px;
+  color: #f168fc;
 }
 
 .lineup div {
   margin: 10px;
   padding: 20px;
 }
+
 .parent {
-  /* display: flex;
-  gap: 1px;
-  flex-direction:initial;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-  position: relative;
-  flex-direction: grid;
-  column-gap: 1rem;
-  row-gap:1rem;
-  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-  margin: 0; */
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(13rem, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(min(100%/3, max(250px, 100%/5)), 1fr));
   grid-template-rows: repeat (a);
   gap: 1rem;
-  margin: 1rem;
+  margin: 2rem;
 }
-
+@media (min-width:768px){
+  .parent {
+    margin: 1rem;
+  }
+}
+@media (min-width:1024px){
+  .parent {
+    margin-left: 6rem;
+    margin-right: 6rem;
+  }
+}
 .box {
+  height: 8rem;
   box-sizing: content-box;
   overflow: hidden;
   padding: 20px;
-  border: solid #eb9c3c;
+  border: solid #f168fc;
   border-radius: 12px;
-  aspect-ratio: 1 / 1;
+  /* box-shadow: .2rem .2rem #f168fc; */
 }
 .box:hover {
   transition: 0.2s ease-out;
-  box-shadow: 0 .25rem 1rem #2a2ad3;
+  box-shadow: .3rem .3rem #2a2ad3;
+  border: solid #2a2ad3;
 }
 .container {
   background-image: url(Raye.jpg);
@@ -340,4 +500,8 @@ button:hover {
 }
 .wrapper {
   justify-content: flex-end;
+}
+
+.fillbox {
+  color: #f168fc;
 }
