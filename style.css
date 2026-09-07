@@ -498,6 +498,12 @@ button:hover {
   background-repeat: no-repeat;
   box-sizing: content-box;
 }
+/* .imagebck {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  box-sizing: content-box;
+/* } */ class not working because of images serve as background images, when trying to implement new code, I was not able to put it behind text as background */
 .wrapper {
   justify-content: flex-end;
 }
