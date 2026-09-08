@@ -38,11 +38,13 @@
       margin: 10px;
     }
     .logodisplay {
-      display: block;
+      display: grid;
       padding: 2rem;
       margin-left: auto;
       margin-right: auto;
-      width: 50%;
+      margin-top: 30px;
+      width: 70%;
+      align-content: center;
     }
     *{
       margin: 0;
@@ -61,6 +63,10 @@
       width: min(440px, 90%);   
       max-height: 90vh;        
       height: auto;
+    }
+    .loginheader{
+      text-align: center;
+      margin-bottom: 20px;
     }
     .inputbox .inputfield{
       width: 100%;
@@ -154,7 +160,6 @@
       font-family: "Tumb", fantasy;
       margin: 10px;
       line-height: 1;
-      text-align: center;
       margin: 30px;
     }
     
@@ -164,9 +169,7 @@
       font-weight: 800;
       font-style: normal;
       line-height: 1.15;
-      text-align: center;
       letter-spacing: 2px;
-      width: 100%;
       margin: 20px;
     }
 
@@ -187,7 +190,7 @@
     .backgroundvideo {
       position: relative;
       width: 100%;
-      height: 80rem;
+      height: 600px;
       background-size: cover;
       box-sizing: content-box;
       overflow: hidden;
@@ -202,12 +205,26 @@
       z-index: -1;
       transform: scale(1.5);
     }
+    @media (min-width: 768px) {
+  .backgroundvideo {
+    height: 400px;
+  }
+}
+
+/* Style for desktop screens (min-width: 1024px) */
+@media (min-width: 1024px) {
+  .backgroundvideo {
+    height: 100vh; /* Full viewport height on desktop */
+  }
+}
     .textoverlay {
       position: absolute;
       top: 0;
       left: 0;
       width: 100%;
       height: 100%;
+      text-align: center;
+      justify-content: center;
     }
     p {
       font-size: var(--fs-base);
@@ -216,7 +233,6 @@
       font-style: normal;
       margin: 20px;
       line-height: 1.3;
-      text-align: center;
     }
     .storecontainer {
       max-width: 90rem;
@@ -229,7 +245,8 @@
       grid-template-columns:
       repeat(auto-fit, minmax(250px, 1fr));
       gap: 1rem;
-      margin: 2rem;
+      margin: 3rem;
+      align-items: center;
     }
     /* .stacked {
       display: grid;
@@ -244,6 +261,7 @@
       object-fit: cover;
       border-radius: 12px;
       border: solid 2px #f168fc;
+      align-items: center;
     }
     .productcard {
       background-color: #f5f5dc;
@@ -251,7 +269,7 @@
       border-radius: 12px;
       overflow: hidden;
       padding: 20px;
-      border: solid #f168fc;
+      box-shadow: .3rem .3rem #f168fc;
       border-radius: 12px;
       box-sizing: content-box;
       height: auto;
@@ -303,17 +321,20 @@
         stroke-width: 2px;
     }
     .fill {
-        display: flex;
-        background-color: #f5f5dc;
+        background-color: #0d0b1b;
         opacity: 93%;
-        padding: 40px;
+        padding: 20px;
         border-radius: 18px;
         border: solid #f168fc 2px;
         display: grid;
-        margin: 10px;
+        margin: 20px;
         text-align: center;
         justify-content: center;
         align-items: center;
+    }
+    
+    .position {
+      position: relative;
     }
     .blend {
       mix-blend-mode: normal;
@@ -372,142 +393,52 @@ button:hover {
   padding: 20px;
   border: solid #f168fc;
   border-radius: 12px;
-  /* box-shadow: .2rem .2rem #f168fc; */
+  text-align: left justify;
 }
 .box:hover {
   transition: 0.2s ease-out;
   box-shadow: .3rem .3rem #2a2ad3;
   border: solid #2a2ad3;
 }
-.container {
-  background-image: url(Raye.jpg);
+.imagebck {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   box-sizing: content-box;
 }
-.container1 {
-  background-image: url(Magdalena2.png);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  box-sizing: content-box;
-}
-.container2 {
-  background-image: url(sarah.jpg);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  box-sizing: content-box;
-}
-.container3 {
-  background-image: url(tovelo.jpg);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  box-sizing: content-box;
-}
-.container4 {
-  background-image: url(beaches.jpg);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  box-sizing: content-box;
-}
-.container5 {
-  background-image: url(ateez.jpg);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  box-sizing: content-box;
-}
-.container6 {
-  background-image: url(yonaka.jpg);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  box-sizing: content-box;
-}
-.container7 {
-  background-image: url(LEAP.jpg);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  box-sizing: content-box;
-}
-.container8 {
-  background-image: url(faouzia.jpg);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  box-sizing: content-box;
-}
-.container9 {
-  background-image: url(florence\ road.jpg);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  box-sizing: content-box;
-
-}.container10 {
-  background-image: url(joycrooces.jpg);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  box-sizing: content-box;
-}
-.container11 {
-  background-image: url(Celeste.jpg);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  box-sizing: content-box;
-}
-.container12 {
-  background-image: url(pvris.jpg);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  box-sizing: content-box;
-}
-.container13 {
-  background-image: url(twinxl.jpg);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  box-sizing: content-box;
-}
-.container12 {
-  background-image: url(florence\ and\ the\ machine.jpg);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  box-sizing: content-box;
-}
-.container13 {
-  background-image: url(NothingButThieves.jpg);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  box-sizing: content-box;
-}
-.container14 {
-  background-image: url(parispaloma.jpg);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  box-sizing: content-box;
-}
-/* .imagebck {
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  box-sizing: content-box;
-/* } */ class not working because of images serve as background images, when trying to implement new code, I was not able to put it behind text as background */
-.wrapper {
+/* .wrapper {
   justify-content: flex-end;
+} */
+.footer {
+  display: grid;
+  position: relative;
+  z-index: 2;
+  margin: 20px;
+  background-color: #2a2ad3;
+  padding: 20px; 
+  border: solid 2px #eb9c3c;
+  border-radius: 18px;
+  box-shadow: .3rem .3rem #eb9c3c;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
 }
 
-.fillbox {
-  color: #f168fc;
+.footerimg {
+  /* grid-column: 2; */
+  max-width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+  justify-self: center;
+}
+.frontdisplay {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 10px;
+}
+@media (min-width: 768px) {
+  .frontdisplay {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
