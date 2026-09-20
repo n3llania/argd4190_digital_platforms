@@ -3,9 +3,82 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="description" content="Phantasm Festival">
+    <meta name="keywords" content="Music, Festival">
+    <meta name="author" content="Nelli Schneemaier">
+    <link rel="icon" type="image/x-icon" href="Phantasm_small.png">
+    <title>Poster Design</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.typekit.net/jps4ipw.css">
+    <link rel="stylesheet" href="https://use.typekit.net/jps4ipw.css">
 </head>
 <body>
-    
+    <nav class="navbar">
+        <ul>   
+          <a href="index.html">
+        <img src="Phantasm.png" alt="Phantasm Festival Logo" class="logo"></a>
+            <!--<li><a href=discover.html>Discover</a></li>-->
+            <li><a href=store.html>Store</a></li>
+            <li><a href=login.html>Login</a></li>
+            <li><a href="lineup.html">Lineup</a></li>
+            <li><a href="index.html">Home</a></li>
+        </ul>
+     </nav>
+     <h1 class="white">Design Corner</h1>
+     <h3 class="white">Create your unique poster and get a chance to win VIP tickets!</h3>
+     <p class="white">Winner's design will be used to promote the festival, and will be displayed all around the world! With credit of cours ;)</p>
+     <main class="design_display">
+     <section class="slides">
+        <p>
+            <label for="word-input" class="white">Your Email</label>
+            <input id="word-input" type="text" placeholder="enter email" />
+            <label for="email-color" class="white">Text Color</label>
+            <input type="color" value="#f5f5dc" id="email-color">
+            <output for="email-color"></output>
+        </p>
+        <p>
+            <label for="stars-x" class="white">Stars X</label>
+            <input type="range" id="stars-x" min="-400" max="400" value="100"> <br>
+            <label for="stars-y" class="white">Stars Y</label>
+            <input type="range" id="stars-y" min="-400" max="400" value="100"> <br>
+            <label for="star-rotate" class="white">Star Angle</label>
+            <input type="range" id="star-rotate" min="0" max="360" value="0">
+        </p>
+        <p>
+            <label for="pinkstar-x" class="white">Pink Star X</label>
+            <input type="range" id="pinkstar-x" min="-400" max="400" value="100"> <br>
+            <label for="pinkstar-y" class="white">Pink Star Y</label>
+            <input type="range" id="pinkstar-y" min="-400" max="400" value="100"> <br>
+            <label for="pink-rotate" class="white">Pink Star Angle</label>
+            <input type="range" id="pink-rotate" min="0" max="360" value="0">
+        </p>
+        </p>
+        <p>
+            <label for="bluestar-x" class="white">Blue Star X</label>
+            <input type="range" id="bluestar-x" min="-400" max="400" value="100"> <br>
+            <label for="bluestar-y" class="white">Blue Star Y</label>
+            <input type="range" id="bluestar-y" min="-400" max="400" value="100"> <br>
+            <label for="blue-rotate" class="white">Blue Star Angle</label>
+            <input type="range" id="blue-rotate" min="0" max="360" value="0">
+        </p>
+        <p>
+            <label for="logo-x" class="white">Logo X</label>
+            <input type="range" id="logo-x" min="-400" max="400" value="100"> <br>
+            <label for="logo-y" class="white">Logo Y</label>
+            <input type="range" id="logo-y" min="-400" max="400" value="100"> <br>
+            <label for="logo-rotate" class="white">Logo Angle</label>
+            <input type="range" id="logo-rotate" min="0" max="360" value="0">
+        </p>
+     </section>
+    <section id="bg">        
+        <img id="stars" src="PhantasmPoster-11.png">
+        <img id="pinkstar" src="PhantasmPoster-13.png">
+        <img id="bluestar" src="PhantasmPoster-12.png">
+        <img id="logo" src="PhantasmPoster-10.png">
+        <h3 id="email">Your Email</h3>
+    </section>
+    </main>
 </body>
+<script src="script.js"></script>
 </html>
