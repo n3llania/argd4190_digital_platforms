@@ -1,0 +1,258 @@
+[
+  {
+    "Artists": "Raye",
+    "Genre": "Jazz, Soul, R&B, alternative pop",
+    "Stage": "Main",
+    "Time": "Night",
+    "Day": 4,
+    "url": "Raye.jpg"
+  },
+  {
+    "Artists": "Magdalena Bay",
+    "Genre": "alternative pop, synth-pop",
+    "Stage": "Main",
+    "Time": "Afternoon",
+    "Day": 2,
+    "url": "Magdalena2.png"
+  },
+  {
+    "Artists": "Sarah Kinsley",
+    "Genre": "Pop, synth-pop, alternative pop",
+    "Stage": "Main",
+    "Time": "Afternoon",
+    "Day": 1,
+    "url": "sarah.jpg"
+  },
+  {
+    "Artists": "Tove Lo",
+    "Genre": "Pop, EDM, dance-pop, alternative pop",
+    "Stage": "Main",
+    "Time": "Afternoon",
+    "Day": 5,
+    "url": "tovelo.jpg"
+  },
+  {
+    "Artists": "The Beaches",
+    "Genre": "Indie Rock, Pop Rock",
+    "Stage": "Main",
+    "Time": "Afternoon",
+    "Day": 4,
+    "url": "beaches.jpg"
+  },
+  {
+    "Artists": "Ateez",
+    "Genre": "hip-hop, EDM trap, K-pop, Pop",
+    "Stage": "Main",
+    "Time": "Night",
+    "Day": 1,
+    "url": "ateez.jpg"
+  },
+  {
+    "Artists": "Yonaka",
+    "Genre": "Indie Rock, alternative roxk",
+    "Stage": "Mid",
+    "Time": "Afternoon",
+    "Day": 1,
+    "url": "yonaka.jpg"
+  },
+  {
+    "Artists": "LEAP",
+    "Genre": "Indie Rock, alternative roxk",
+    "Stage": "Mid",
+    "Time": "Afternoon",
+    "Day": 2,
+    "url": "LEAP.jpg"
+  },
+  {
+    "Artists": "Faouzia",
+    "Genre": "Pop, R&B, Cinematic",
+    "Stage": "Mid",
+    "Time": "Afternoon",
+    "Day": 5,
+    "url": "faouzia.jpg"
+  },
+  {
+    "Artists": "Florence Road",
+    "Genre": "Indie Rock, alternative roxk",
+    "Stage": "Small",
+    "Time": "Mornign",
+    "Day": 3,
+    "url": "florence\\ road.jpg"
+  },
+  {
+    "Artists": "Joy Crookes",
+    "Genre": "Jazz, Soul, R&B",
+    "Stage": "Mid",
+    "Time": "Mornign",
+    "Day": 4,
+    "url": "joycrooces.jpg"
+  },
+  {
+    "Artists": "Celeste",
+    "Genre": "Jazz, Soul, R&B",
+    "Stage": "Mid",
+    "Time": "Afternoon",
+    "Day": 4,
+    "url": "celeste.jpg"
+  },
+  {
+    "Artists": "Florence + The Machine",
+    "Genre": "Indie Rock, alternative roxk",
+    "Stage": "Main",
+    "Time": "Afternoon",
+    "Day": 5,
+    "url": "florence\\ and\\ the\\ machine.jpg"
+  },
+  {
+    "Artists": "Nothing but Thieves",
+    "Genre": "alternative roxk, Indie Rock, hard rock",
+    "Stage": "Mid",
+    "Time": "Mornign",
+    "Day": 3,
+    "url": "NothingButThieves.jpg"
+  },
+  {
+    "Artists": "Paris Paloma",
+    "Genre": "folk-pop, folk, indie-folk, dark pop",
+    "Stage": "Small",
+    "Time": "Afternoon",
+    "Day": 5,
+    "url": "parispaloma.jpg"
+  },
+  {
+    "Artists": "Tame Impala",
+    "Genre": "synth-pop, Psychedelic pop/rock",
+    "Stage": "Main",
+    "Time": "Night",
+    "Day": 2,
+    "url": "impala.jpg"
+  },
+  {
+    "Artists": "Agnes",
+    "Genre": "dance-pop, electropop",
+    "Stage": "Small",
+    "Time": "Mornign",
+    "Day": 1,
+    "url": "Agnes.jpg"
+  },
+  {
+    "Artists": "Zinadelphia",
+    "Genre": "Jazz, folk, Cinematic",
+    "Stage": "Small",
+    "Time": "Afternoon",
+    "Day": 4,
+    "url": "zinadelphia.jpg"
+  },
+  {
+    "Artists": "Rachel Chinouriri",
+    "Genre": "alternative pop, Pop",
+    "Stage": "Mid",
+    "Time": "Afternoon",
+    "Day": 3,
+    "url": "rachel2.jpg"
+  },
+  {
+    "Artists": "TWIN XL",
+    "Genre": "alternative pop, synth-pop, Indie Rock",
+    "Stage": "Small",
+    "Time": "Afternoon",
+    "Day": 3,
+    "url": "twinxl.jpg"
+  },
+  {
+    "Artists": "NewDad",
+    "Genre": "Indie Rock",
+    "Stage": "Mid",
+    "Time": "Mornign",
+    "Day": 5,
+    "url": "newdad.jpg"
+  },
+  {
+    "Artists": "New Constellations",
+    "Genre": "synth-pop, alternative pop",
+    "Stage": "Small",
+    "Time": "Afternoon",
+    "Day": 2,
+    "url": "NewConstellations.jpg"
+  },
+  {
+    "Artists": "Lava La Rue",
+    "Genre": "alternative pop, Psychedelic pop/rock, R&B",
+    "Stage": "Small",
+    "Time": "Mornign",
+    "Day": 5,
+    "url": "LavaLaRue.jpg"
+  },
+  {
+    "Artists": "half-alive",
+    "Genre": "alternative pop, Pop Rock",
+    "Stage": "Mid",
+    "Time": "Mornign",
+    "Day": 1,
+    "url": "halfalive.jpg"
+  },
+  {
+    "Artists": "Cassyette",
+    "Genre": "electropop, alternative roxk",
+    "Stage": "Small",
+    "Time": "Night",
+    "Day": 1,
+    "url": "casyette.jpg"
+  },
+  {
+    "Artists": "ratbag",
+    "Genre": "alternative roxk, art pop, Indie Rock",
+    "Stage": "Small",
+    "Time": "Night",
+    "Day": 2,
+    "url": "ratbag.jpg"
+  },
+  {
+    "Artists": "Ha Vay",
+    "Genre": "alternative pop, Psychedelic pop/rock",
+    "Stage": "Small",
+    "Time": "Afternoon",
+    "Day": 4,
+    "url": "havay.jpeg"
+  },
+  {
+    "Artists": "Zara Larrson",
+    "Genre": "Pop, dance-pop, electropop",
+    "Stage": "Main",
+    "Time": "Afternoon",
+    "Day": 3,
+    "url": "ZaraLarsson.jpg"
+  },
+  {
+    "Artists": "Chvurches",
+    "Genre": "synth-pop",
+    "Stage": "Main",
+    "Time": "Mornign",
+    "Day": 2,
+    "url": "chvrches.jpg"
+  },
+  {
+    "Artists": "Lights",
+    "Genre": "synth-pop, electropop",
+    "Stage": "Small",
+    "Time": "Mornign",
+    "Day": 2,
+    "url": "lights.jpg"
+  },
+  {
+    "Artists": "DJ Dave",
+    "Genre": "electropop",
+    "Stage": "Small",
+    "Time": "Afternoon",
+    "Day": 1,
+    "url": "djdave.jpg"
+  },
+  {
+    "Artists": "Glass Animals",
+    "Genre": "Indie Rock, Psychedelic pop/rock, alternative pop",
+    "Stage": "Main",
+    "Time": "Mornign",
+    "Day": 4,
+    "url": "glass_animals.jpg"
+  }
+]
