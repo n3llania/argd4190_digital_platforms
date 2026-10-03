@@ -397,6 +397,8 @@ button:hover {
   border: solid #f168fc;
   border-radius: 12px;
   text-align: left justify;
+  max-width: 500px;
+
 }
 .boxtext {
   margin: -10px;
@@ -412,6 +414,14 @@ button:hover {
   background-position: center;
   background-repeat: no-repeat;
   box-sizing: content-box;
+}
+.gradient {
+  height: 100%;
+  width: 100%;
+  background-image: linear-gradient(to top transparent, white);
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 /* .wrapper {
   justify-content: flex-end;
@@ -476,14 +486,13 @@ button:hover {
     grid-template-columns: repeat(2, 1fr);
   }
 }
+
 #bg {
   width: 298px;
   height: 420px;
   position: relative;
   border: solid 2px var(--primary-color);
-  justify-self: center;
   overflow: hidden;
-  margin: 20px;
 }
 #bg > * {
   position: absolute;
@@ -493,14 +502,23 @@ button:hover {
 
 .design_display {
   display: grid;
-  justify-content: center;
-  margin: 20px;
-  grid-template-columns: repeat(1, 1fr);
+  justify-self: center;
+  margin: 40px;
+  gap: 40px;
 }
 
 @media (min-width:768px){
   .design_display {
     grid-template-columns: repeat(2, 1fr);
+    margin-left: 3rem;
+    margin-right: 3rem;
+
+  }
+}
+@media (min-width:1024px){
+  .design_display {
+    margin-left: 10rem;
+    margin-right: 10rem;
   }
 }
 .slides {
@@ -514,3 +532,57 @@ button:hover {
   border: solid 2px var(--fifth-color);
   border-radius: 12px;
 }
+
+.search-bar .inputfield{
+      height: 40px;
+      font-size: var(--fs-sm);
+      padding: 0 25px;
+      margin-bottom: 15px;
+      border-radius: 30px;
+      border: solid 2px #f168fc;
+      box-shadow: 0px 2px #f168fc;
+      background-color: #f5f5dc;
+      outline: none;
+}
+
+.search-bar::placeholder {
+  color: var(--quetemary-color);
+}
+
+.filter-bar {
+  height: 30px;
+  border: solid 2px #f168fc;
+  padding: 0 25px;
+  box-shadow: 0px 2px #f168fc;
+  background-color: #f5f5dc;
+  border-radius: 30px;
+  font-size: var(--fs-sm);
+  margin-bottom: 10px;
+  margin-right: 10px;
+  position: relative;
+  font-family:"newnord",sans-serif;
+}
+
+.filter-bar option{
+ padding: 0 25px;
+ color: var(--tertiary-color);
+ border-radius: 12px;
+}
+
+.filter-bar option:hover {
+  background-color: var(--quetemary-color);
+  color: var(--primary-color);
+  cursor: pointer;
+}
+
+.bar-display {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+
+/* .lineupbox{
+
+} */
