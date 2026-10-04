@@ -69,7 +69,7 @@ function namesearch() {
     for(let i = 0; i < artists.length; i++) {
         //let artist = artists[i].Artists;
         let artist = artists[i].Artists;        
-        console.log(artist, seltext);
+        // console.log(artist, seltext);
         if (artist.toLowerCase().includes(`${seltext}`))
         {
             makeArtist(artists[i])
