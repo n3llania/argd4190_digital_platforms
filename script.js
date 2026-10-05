@@ -15,7 +15,7 @@ function makeArtist(artist) {
     let newArtist = document.createElement("a")
     newArtist.innerHTML =
     `<a href='https://open.spotify.com/search/${artist.Artists}' target="_blank" rel="noopener noreferrer">
-        <div class="box imagebck" style='background-image: linear-gradient(rgba(241, 104, 252, 0.6), rgba(241, 104, 252, 0.0), rgba(241, 104, 252, 0)), url(${artist.url});'>
+        <div class="box imagebck" style='background-image: linear-gradient(rgba(42, 42, 211, 0.6), rgba(42, 42, 211, 0.0), rgba(42, 42, 211, 0)), url(${artist.url});'>
             <h3 class="white boxtext">${artist.Artists}</h3>
         </div>
     </a>`
