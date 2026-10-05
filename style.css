@@ -425,7 +425,7 @@ a:focus-visible .artist-hover{
   text-align: left;
   margin: 10px;
   font-size: var(--fs-sm);
-  font-weight: 600;
+  font-weight: 400;
 }
 .boxtext {
   margin: -10px;
