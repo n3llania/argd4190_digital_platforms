@@ -21,7 +21,7 @@
     "Stage": "Main",
     "Time": "Afternoon",
     "Day": 1,
-    "url": "sarah.jpg"
+    "url": "sarahkinsley.jpg"
   },
   {
     "Artists": "Tove Lo",
@@ -75,7 +75,7 @@
     "Artists": "Florence Road",
     "Genre": "Indie Rock, alternative roxk",
     "Stage": "Small",
-    "Time": "Mornign",
+    "Time": "Morning",
     "Day": 3,
     "url": "florence\\ road.jpg"
   },
@@ -83,7 +83,7 @@
     "Artists": "Joy Crookes",
     "Genre": "Jazz, Soul, R&B",
     "Stage": "Mid",
-    "Time": "Mornign",
+    "Time": "Morning",
     "Day": 4,
     "url": "joycrooces.jpg"
   },
@@ -93,7 +93,7 @@
     "Stage": "Mid",
     "Time": "Afternoon",
     "Day": 4,
-    "url": "celeste.jpg"
+    "url": "celestesinger.jpg"
   },
   {
     "Artists": "Florence + The Machine",
@@ -107,7 +107,7 @@
     "Artists": "Nothing but Thieves",
     "Genre": "alternative roxk, Indie Rock, hard rock",
     "Stage": "Mid",
-    "Time": "Mornign",
+    "Time": "Morning",
     "Day": 3,
     "url": "NothingButThieves.jpg"
   },
@@ -131,7 +131,7 @@
     "Artists": "Agnes",
     "Genre": "dance-pop, electropop",
     "Stage": "Small",
-    "Time": "Mornign",
+    "Time": "Morning",
     "Day": 1,
     "url": "Agnes.jpg"
   },
@@ -163,7 +163,7 @@
     "Artists": "NewDad",
     "Genre": "Indie Rock",
     "Stage": "Mid",
-    "Time": "Mornign",
+    "Time": "Morning",
     "Day": 5,
     "url": "newdad.jpg"
   },
@@ -173,13 +173,13 @@
     "Stage": "Small",
     "Time": "Afternoon",
     "Day": 2,
-    "url": "NewConstellations.jpg"
+    "url": "newcon.jpg"
   },
   {
     "Artists": "Lava La Rue",
     "Genre": "alternative pop, Psychedelic pop/rock, R&B",
     "Stage": "Small",
-    "Time": "Mornign",
+    "Time": "Morning",
     "Day": 5,
     "url": "LavaLaRue.jpg"
   },
@@ -187,7 +187,7 @@
     "Artists": "half-alive",
     "Genre": "alternative pop, Pop Rock",
     "Stage": "Mid",
-    "Time": "Mornign",
+    "Time": "Morning",
     "Day": 1,
     "url": "halfalive.jpg"
   },
@@ -227,7 +227,7 @@
     "Artists": "Chvurches",
     "Genre": "synth-pop",
     "Stage": "Main",
-    "Time": "Mornign",
+    "Time": "Morning",
     "Day": 2,
     "url": "chvrches.jpg"
   },
@@ -235,7 +235,7 @@
     "Artists": "Lights",
     "Genre": "synth-pop, electropop",
     "Stage": "Small",
-    "Time": "Mornign",
+    "Time": "Morning",
     "Day": 2,
     "url": "lights.jpg"
   },
@@ -251,7 +251,7 @@
     "Artists": "Glass Animals",
     "Genre": "Indie Rock, Psychedelic pop/rock, alternative pop",
     "Stage": "Main",
-    "Time": "Mornign",
+    "Time": "Morning",
     "Day": 4,
     "url": "glass_animals.jpg"
   }
