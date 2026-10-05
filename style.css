@@ -390,6 +390,7 @@ button:hover {
   }
 }
 .box {
+  position: relative;
   height: 8rem;
   box-sizing: content-box;
   overflow: hidden;
@@ -398,7 +399,32 @@ button:hover {
   border-radius: 12px;
   text-align: left justify;
   max-width: 500px;
+}
+.artist-hover {
+  position: absolute;
+  inset: 0; /* Shorthand for top: 0, right: 0, bottom: 0, left: 0 */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  padding: 1rem;
+  background-image: linear-gradient(rgba(42, 42, 211, 0.0), rgba(42, 42, 211, 0.6));   
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease, visibility 0.3s ease;
+  pointer-events: none;
+}
 
+.box:hover .artist-hover,
+a:focus-visible .artist-hover{
+  opacity: 1;
+  visibility: visible;
+}
+
+.artist-hover .text-hover{
+  text-align: left;
+  margin: 10px;
+  font-size: var(--fs-sm);
 }
 .boxtext {
   margin: -10px;

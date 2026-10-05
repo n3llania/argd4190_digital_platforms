@@ -17,6 +17,9 @@ function makeArtist(artist) {
     `<a href='https://open.spotify.com/search/${artist.Artists}' target="_blank" rel="noopener noreferrer">
         <div class="box imagebck" style='background-image: linear-gradient(rgba(42, 42, 211, 0.6), rgba(42, 42, 211, 0.0), rgba(42, 42, 211, 0)), url(${artist.url});'>
             <h3 class="white boxtext">${artist.Artists}</h3>
+            <div class="artist-hover">
+                <p class="white text-hover">Day ${artist.Day} | ${artist.Time} | ${artist.Stage} Stage</p>
+            </div>
         </div>
     </a>`
 
@@ -33,7 +36,8 @@ function filterList() {
     const selstage = document.getElementById("stage-dropdown").value;
     const seltime= document.getElementById("time-dropdown").value;
     const selday = document.getElementById("day-dropdown").value;
-
+    const reset = document.getElementById("clear")
+    const item = document.querySelectorAll("#genre-dropdown, #stage-dropdown, #time-dropdown, #day-dropdown")
     //console.log(selday, selgenre, seltime, selstage)
 
     document.querySelector(".parent").innerHTML = '';
@@ -76,3 +80,17 @@ function namesearch() {
         }    
     }
 }   
+// clear all filters
+function resetFilters(){
+    document.getElementById("searchBar").value = '';
+    document.getElementById("genre-dropdown").value = 'All';
+    document.getElementById("stage-dropdown").value = 'All';
+    document.getElementById("time-dropdown").value = 'All';
+    document.getElementById("day-dropdown").value = '0';
+
+    document.querySelector(".parent").innerHTML = '';
+    for (let i = 0; i < artists.length; i++) {
+        makeArtist(artists[i]);
+    }
+}
+document.getElementById("clear").addEventListener('click', resetFilters)
