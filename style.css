@@ -15,6 +15,7 @@
     }
     ul li {
       float: right;
+      
     }
     a {
       text-decoration: none;
@@ -28,7 +29,7 @@
       font-family: "newnord", sans-serif;
       font-size: var(--fs-base);
       text-align: center;
-      padding: 11px 14px;
+      padding: 17px 14px;
       text-decoration: none;
     }
     ul li a:hover {
@@ -36,7 +37,7 @@
       color: #f5f5dc;
     }
     .logo {
-      height: 1.5rem;
+      height: 2rem;
       width: auto;
       margin: 8px;
       padding: auto;

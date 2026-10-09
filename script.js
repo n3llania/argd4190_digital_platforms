@@ -17,7 +17,6 @@ function makeArtist(artist) {
     `<a href='https://open.spotify.com/search/${artist.Artists}' target="_blank" rel="noopener noreferrer">
         <div class="box imagebck" style='background-image: linear-gradient(rgba(42, 42, 211, 0.6), rgba(42, 42, 211, 0.0), rgba(42, 42, 211, 0)), url(${artist.url});'>
             <h3 class="white boxtext">${artist.Artists}</h3>
-                <svg class="heart-hover" id="heart" viewBox="0 0 32 29.6" xmlns="http://w3.org">
                     <path d="M23.6,0c-3.4,0-6.3,2.7-7.6,5.6C14.7,2.7,11.8,0,8.4,0C3.8,0,0,3.8,0,8.4 c0,9.4,16,21.2,16,21.2s16-11.8,16-21.2C32,3.8,28.2,0,23.6,0z"/>
                 </svg>
             <div class="artist-hover">
@@ -27,7 +26,8 @@ function makeArtist(artist) {
     </a>`
 
     document.querySelector(".parent").appendChild(newArtist)
-
+//<svg class="heart-hover" id="heart" viewBox="0 0 32 29.6" xmlns="http://w3.org">
+    //heart icon
 
     }
 
